@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "poppons";
+}
+span{
+    color: red;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./image/rose.jpg);
+    background-size: cover;
+}
+.wrapper{
+    position: relative;
+    width: 600px;
+    height: 400px;
+    background: #fff;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: url(./image/love-hand.jpg);
+    background-size: cover;
+
+}
+h2{
+    font-size: 3rem;
+    color: #ffffff;
+    margin: 15px 0;
+
+}
+.btnGroup{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+
+}
+button{
+    position: absolute;
+    width: 150px;
+    height: inherit;
+    font-size: 1.5rem;
+    font-weight: 600;
+    border-radius: 30px;
+    border:2px solid #64bd88;
+    outline: none;
+    cursor: pointer;
+    
+    
+}
+button:nth-child(1){
+    margin-left: -200px;
+    background-color: red;
+}
+button:nth-child(2){
+    margin-right: -200px;
+    color: #ffffff;
+    background-color: black;
+}

@@ -7,7 +7,8 @@ const wrapperRect = wrapper.getBoundingClientRect();/*Need to Know*/
 const noBtnRect = noBtn.getBoundingClientRect();
 
 yesBtn.addEventListener('click', ()=>{
-    question.innerHTML = 'I Love You Too :)';
+    question.innerHTML = 'I Love You Too ❤ 🥰';
+    wrapper.style.backgroundImage = "url('./image/after yes.avif')";
     
 
 });
